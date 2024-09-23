@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+.white-text {
+    color: white;
+}
+
 header {
     background-color: #ff7eb690;
     padding: 20px;
@@ -34,7 +38,7 @@ nav ul li a {
 }
 
 .cta-button {
-    background-color: #ff7eb690;
+    background-color: #ff80b7dc;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -61,7 +65,7 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #ff80b7dc;
     color: white;
     text-align: center;
     padding: 10px 0;
