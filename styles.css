@@ -4,12 +4,9 @@ body {
     padding: 0;
 }
 
-.white-text {
-    color: white;
-}
 
 header {
-    background-color: #ff7eb690;
+    background-color: #dca1a1;
     padding: 20px;
     text-align: center;
 }
@@ -32,13 +29,13 @@ nav ul li a {
 #hero {
     background-image: url('hero-image.jpg');
     background-size: cover;
-    color: white;
+    color: #dca1a1;
     text-align: center;
     padding: 50px 20px;
 }
 
 .cta-button {
-    background-color: #ff80b7dc;
+    background-color: #dca1a1;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -65,8 +62,8 @@ main {
 }
 
 footer {
-    background-color: #ff80b7dc;
-    color: white;
+    background-color: white;
+    color: #dca1a1;
     text-align: center;
     padding: 10px 0;
 }
