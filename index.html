@@ -5,75 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chloe's Petal Boutique</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Chloe's Petal Boutique</h1>
         <nav>
             <ul>
-                <li><a href="#bouquets">Bouquets</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-                <li><a href="./chapters/index.html">Chapters</a></li>
-            </ul>
+            <li><a href="#bouquets">Bouquets</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="./chapters/index.html">Chapters</a></li>
+        </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <h2>Brighten Your Day with Our Beautiful Bouquets</h2>
-            <p>Farm fresh flowers for every occasion, handpicked and beautifully arranged.</p>
-            <a href="#bouquets" class="cta-button">Shop Now</a>
-        </section>
+     <section id="hero">
+    <h2>Brighten Your Day with Our Beautiful Bouquets</h2>
+     <p>Farm fresh flowers for every occasion, handpicked and beautifully arranged.</p>
+    <a href="#bouquets" class="cta-button">Shop Now</a>
+    </section>
 
         <section id="bouquets">
-            <h2>Best Selling Bouquets</h2>
-            <form action="cart.html" method="post">
-                <div class="bouquet">
-                    <img src="https://bouqs.com/product_images/campanella-free-spirit-candlelight-star-blush-roses/Deluxe/66ec88e8a99531008ef92164/detail.jpg?c=1726777576" alt="Rose Bouquet">
-                    <h3>Rose Bouquet</h3>
-                    <p>Price: $80</p>
-                    <input type="hidden" name="item" value="Rose Bouquet">
-                    <input type="hidden" name="price" value="80">
-                    <button type="submit">Add to Cart</button>
-                </div>
-            </form>
-            <form action="cart.html" method="post">
-                <div class="bouquet">
-                    <img src="https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1720838944/vendor/3256/catalog/product/2/0/20230314015105_file_640fd3094c9a5_640fd324c4da7.jpeg" alt="Tulip Bouquet">
-                    <h3>Tulip Bouquet</h3>
-                    <p>Price: $80</p>
-                    <input type="hidden" name="item" value="Tulip Bouquet">
-                    <input type="hidden" name="price" value="80">
-                    <button type="submit">Add to Cart</button>
-                </div>
-            </form>
-            <form action="cart.html" method="post">
-                <div class="bouquet">
-                    <img src="https://bouqs.com/product_images/pink-gerbs-aster-white-ruscus/Deluxe/60c168032412133cc008b1e9/detail.jpg?c=1623287811" alt="Mixed Bouquet">
-                    <h3>Mixed Bouquet</h3>
-                    <p>Price: $70</p>
-                    <input type="hidden" name="item" value="Mixed Bouquet">
-                    <input type="hidden" name="price" value="70">
-                    <button type="submit">Add to Cart</button>
-                </div>
-            </form>
-        </section>
+ <h2>Best Selling Bouquets</h2>
+    <div class="bouquet">
+         <img src="https://bouqs.com/product_images/campanella-free-spirit-candlelight-star-blush-roses/Deluxe/66ec88e8a99531008ef92164/detail.jpg?c=1726777576" alt="Rose Bouquet">
+      <h3>Rose Bouquet</h3>
+      <p>Price: $80</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="bouquet">
+                <img src="https://asset.bloomnation.com/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1720838944/vendor/3256/catalog/product/2/0/20230314015105_file_640fd3094c9a5_640fd324c4da7.jpeg" alt="Tulip Bouquet">
+                <h3>Tulip Bouquet</h3>
+                <p>Price: $80</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="bouquet">
+                <img src="https://bouqs.com/product_images/pink-gerbs-aster-white-ruscus/Deluxe/60c168032412133cc008b1e9/detail.jpg?c=1623287811" alt="Mixed Bouquet">
+        <h3>Mixed Bouquet</h3>
+         <p>Price: $70</p>
+                <button>Add to Cart</button>
+    </div>
+    </section>
 
         <section id="about">
             <h2>About Us</h2>
             <p>At Chloe's Petal Boutique, we believe in spreading joy through the beauty of flowers. Our bouquets are sustainably sourced and crafted with love and care, handpicked straight from farmers who care.</p>
-        </section>
+    </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Email: info@flowerbouquetshop.com</p>
-            <p>Phone: (123) 456-7890</p>
-        </section>
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Email: info@flowerbouquetshop.com</p>
+ <p>Phone: (123) 456-7890</p>
+</section>
+    
     </main>
 
     <footer>
-        <p>© Chloe's Petal Boutique</p>
+    <p>&copy; Chloe's Petal Boutique</p>
     </footer>
+
+<div id="cart">
+<h2>Shopping Cart</h2>
+<ul id="cart-items"></ul>
+<p>Total: $<span id="total-price">0</span></p>
+    </div>
+    
 </body>
 </html>
+</body>
+</html>                                                                                                                                                                                        
