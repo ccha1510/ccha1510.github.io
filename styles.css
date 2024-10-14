@@ -4,7 +4,6 @@ body {
     padding: 0;
 }
 
-
 header {
     background-color: #dca1a1;
     padding: 20px;
@@ -52,8 +51,9 @@ main {
     padding: 10px;
     margin: 10px;
     text-align: center;
-    display: inline-block;
+    float: left;
     width: 30%;
+    box-sizing: border-box;
 }
 
 .bouquet img {
