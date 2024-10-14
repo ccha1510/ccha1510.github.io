@@ -8,6 +8,7 @@ header {
     background-color: #dca1a1;
     padding: 20px;
     display: flex;
+    align-items: center;
 }
 
 nav {
