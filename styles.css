@@ -10,10 +10,6 @@ header {
     display: flex;
 }
 
-.logo {
-    height: 50px;
-}
-
 nav {
     margin-left: auto;
 }
